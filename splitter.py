@@ -3,7 +3,7 @@ import sys
 import pyarrow.parquet as pq
 
 if len(sys.argv) < 3:
-    print("usage: ./splitter.py <filename> <split?>")
+    print("usage: ./splitter.py <filename> <split(1/0)>")
     sys.exit(0)
 
 FILENAME = str(sys.argv[1])
